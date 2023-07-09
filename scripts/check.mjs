@@ -17,7 +17,7 @@ const SIDECAR_HOST = execSync("rustc -vV")
 /* ======= clash ======= */
 const CLASH_URL_PREFIX =
   "https://github.com/Dreamacro/clash/releases/download/premium/";
-const CLASH_LATEST_DATE = "2023.05.29";
+const CLASH_LATEST_DATE = "v1.17.0";
 
 const CLASH_MAP = {
   "win32-x64": "clash-windows-amd64",
@@ -242,17 +242,17 @@ const resolveUninstall = () =>
 const resolveMmdb = () =>
   resolveResource({
     file: "Country.mmdb",
-    downloadURL: `https://github.com/Dreamacro/maxmind-geoip/releases/download/20221112/Country.mmdb`,
+    downloadURL: `https://github.com/Dreamacro/maxmind-geoip/releases/download/20230612/Country.mmdb`,
   });
 const resolveGeosite = () =>
   resolveResource({
     file: "geosite.dat",
-    downloadURL: `https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat`,
+    downloadURL: `https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202307082209/geosite.dat`,
   });
 const resolveGeoIP = () =>
   resolveResource({
     file: "geoip.dat",
-    downloadURL: `https://github.com/Loyalsoldier/geoip/releases/latest/download/geoip.dat`,
+    downloadURL: `https://github.com/Loyalsoldier/geoip/releases/download/202307060123/geoip.dat`,
   });
 
 const tasks = [
