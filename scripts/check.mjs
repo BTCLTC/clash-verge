@@ -242,17 +242,17 @@ const resolveUninstall = () =>
 const resolveMmdb = () =>
   resolveResource({
     file: "Country.mmdb",
-    downloadURL: `https://github.com/Dreamacro/maxmind-geoip/releases/download/20230612/Country.mmdb`,
+    downloadURL: `https://github.com/Dreamacro/maxmind-geoip/releases/download/latest/Country.mmdb`,
   });
 const resolveGeosite = () =>
   resolveResource({
     file: "geosite.dat",
-    downloadURL: `https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202307082209/geosite.dat`,
+    downloadURL: `https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/latest/geosite.dat`,
   });
 const resolveGeoIP = () =>
   resolveResource({
     file: "geoip.dat",
-    downloadURL: `https://github.com/Loyalsoldier/geoip/releases/download/202307060123/geoip.dat`,
+    downloadURL: `https://github.com/Loyalsoldier/geoip/releases/download/latest/geoip.dat`,
   });
 
 const tasks = [
